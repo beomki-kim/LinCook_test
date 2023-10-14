@@ -1,0 +1,69 @@
+{
+  "name": "front",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^1.0.6",
+    "@material-tailwind/react": "^2.1.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.8.3",
+    "axios": "^1.5.1",
+    "crypto-browserify": "^3.12.0",
+    "dotenv": "^16.3.1",
+    "geolocation": "^0.2.0",
+    "gh-pages": "^6.0.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-ga": "^3.3.1",
+    "react-ga4": "^2.1.0",
+    "react-geolocated": "^4.1.2",
+    "react-hook-form": "^7.45.4",
+    "react-kakao-maps-sdk": "^1.1.18",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "react-youtube": "^10.1.0",
+    "recoil": "^0.7.7",
+    "recoil-persist": "^5.1.0",
+    "tw-elements-react": "^1.0.0-alpha1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "homepage": "https://beomki-kim.github.io/LinCook_test",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "a.js",
+  "author": "",
+  "license": "ISC"
+}
