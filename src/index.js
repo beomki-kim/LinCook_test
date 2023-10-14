@@ -7,6 +7,7 @@ import { RecoilRoot } from 'recoil';
 import ReactGA from "react-ga4";
 import { BrowserRouter } from 'react-router-dom';
 
+
 // 구글 애널리틱스 운영서버만 적용
 if (process.env.REACT_APP_GOOGLE_ANALYTICS) {
   ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS);
