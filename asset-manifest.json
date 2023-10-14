@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/LinCook_test/static/css/main.980e8e80.css",
-    "main.js": "/LinCook_test/static/js/main.fc0d3e32.js",
+    "main.css": "/LinCook_test/static/css/main.52b679b8.css",
+    "main.js": "/LinCook_test/static/js/main.a5125066.js",
     "static/js/787.71df535f.chunk.js": "/LinCook_test/static/js/787.71df535f.chunk.js",
     "static/media/registrationlogo.png": "/LinCook_test/static/media/registrationlogo.ce70ba0d5e5889dd0067.png",
     "index.html": "/LinCook_test/index.html",
-    "main.980e8e80.css.map": "/LinCook_test/static/css/main.980e8e80.css.map",
-    "main.fc0d3e32.js.map": "/LinCook_test/static/js/main.fc0d3e32.js.map",
+    "main.52b679b8.css.map": "/LinCook_test/static/css/main.52b679b8.css.map",
+    "main.a5125066.js.map": "/LinCook_test/static/js/main.a5125066.js.map",
     "787.71df535f.chunk.js.map": "/LinCook_test/static/js/787.71df535f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.980e8e80.css",
-    "static/js/main.fc0d3e32.js"
+    "static/css/main.52b679b8.css",
+    "static/js/main.a5125066.js"
   ]
 }
