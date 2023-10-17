@@ -11,6 +11,23 @@ import ContentDetail from './pages/ContentDetail';
 import { RecoilRoot } from 'recoil';
 import ShoppingCarts from './components/ShoppingCarts';
 import RouteChangeTracker from "./RouteChangeTracker";
+import mixpanel from 'mixpanel-browser';
+import PropTypes from 'prop-types';
+import { MixpanelProvider, MixpanelConsumer } from 'react-mixpanel';
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+
+// mixpanel.init("7e6ca79e8cbd75bb932a6d04c0ea2450")
+
+// ReactDOM.render(
+//   <MixpanelProvider mixpanel={mixpanel}>
+//       <App/>
+//   </MixpanelProvider>,
+//   document.getElementById('app')
+// );
+
+
 
 export default function App() {
   RouteChangeTracker();
